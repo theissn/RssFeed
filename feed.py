@@ -1,6 +1,6 @@
 import feedparser
 
-# tested links
+# sample tested links
 # http://rss.cnn.com/rss/edition.rss
 # http://www.dr.dk/nyheder/service/feeds/allenyheder
 
