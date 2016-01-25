@@ -36,8 +36,8 @@ d = feedparser.parse(feedLink)
 for i in range(0,int(itemsToDisplay)):
     # while items still avalible show title + link
     try:
-        print(d.entries[i].title)
-        print(d.entries[i].link)
+        print("Title: " + d.entries[i].title)
+        print("Link: " + d.entries[i].link +  "\n")
     except IndexError:
         print("No more items to display")
         break
